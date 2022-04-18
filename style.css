@@ -1,0 +1,253 @@
+
+
+.first-view{
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+    width:100%;
+}
+
+.first-view-phone{
+    display:none;
+}
+
+.Header{
+    display:flex;
+    position:absolute;
+    width:100%;
+    height: 77px;
+}
+
+.header-container{
+    width:100%;
+    display:flex;
+    margin:0 36px 0 36px;
+    position:relative;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+
+.header-nav{
+    justify-content:flex-end;
+    display:block;
+    position:relative;
+}
+
+
+.header-menus{
+    display: block;
+
+}
+
+.header-menu{
+    display:inline-block;
+    justify-content:flex-end;
+    margin-left: 20px
+}
+
+ul{
+    list-style:none;
+    justify-content:flex-end;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+    justify-content:space-between;
+
+}
+
+.header-menu-link>span{
+    display:block;
+    font-weight:700;
+    text-align: center;
+}
+
+
+.header-menu-link>span:first-child{
+    font-family:'Lato', sans-serif;
+    font-size: 14px
+}
+
+.header-menu-link>span:last-child{
+    font-family: YuGothic;
+    font-size: 10px;
+}
+
+
+
+.btn{
+    background-color:#F79214;
+    border-radius: 38px;
+    color:#FFFFFF;
+    padding:15px;
+    text-align: center;
+    
+}
+
+.header-menus:last-child:hover{
+    opacity:0.8;
+}
+
+.main-wrapper{
+    display:flex;
+    flex-direction:column;
+    max-width: 100%;
+    height:auto;
+}
+
+.main-container{
+    width:fit-content;
+    position:relative;
+    padding:0 50px 0 50px;
+    margin-bottom: 70px;
+}
+
+
+.main-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight:700;
+    line-height:54px;
+    margin-bottom: 15px;
+    
+}
+
+.main-contents{
+    margin-bottom: 25px;
+}
+
+.main-contents img{
+    margin-right: 8px;
+}
+
+.main-contents img:nth-of-type(2){
+    width:40%;
+}
+
+.main-contents-btns{
+   display:flex; 
+}
+
+.main-content-btns a{
+    font-size: 16px;
+    font-weight:bold;
+    font-family:YuGothic;
+}
+
+.main-contents-btns a:first-of-type{
+    margin-right: 15px;
+    width:300px;
+    
+}
+
+.main-contents-btns a:first-of-type:hover{
+    opacity:0.8;
+}
+
+.main-contents-btns a:last-of-type{
+    width:176px;
+    color:black;
+    font-weight:bold;
+    background-color: white;
+    border:0.5px solid #E0E0E0;
+    box-sizing:border-box;
+}
+
+.main-contents-btns a:last-of-type:hover{
+    opacity: 0.8;
+}
+
+.caption-container p{
+    color:#A2A2A4;
+    font-size:12px;
+}
+
+.caption-container a{
+    color:#A2A2A4;
+    font-size:12px;
+}
+
+
+.about-wrapper{
+    background-color:#F79214;
+    padding:45px 0;
+}
+
+.about-container{
+    display:flex;
+    width:100%;
+    box-sizing:border-box;
+    justify-content:space-between;
+    padding: 0 50px;
+    margin: 0 auto;
+    align-items:center;
+}
+
+.sub-title br{
+    display:none;
+}
+
+.messages{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:50%;
+}
+
+.sub-title h2{
+    width:100%;
+    font-size:40px;
+    margin-bottom: 0
+}
+
+.sub-title h2 span{
+    font-family:'Lato', sans-serif;
+    font-size:50px;
+    font-weight:bold;
+}
+
+
+.messages{
+    color:white;
+}
+
+.explain p{
+    font-size:16px;
+    font-weight:bold;
+    padding-top: 15px;
+}
+
+.about-btn{
+    width:250px;
+}
+
+.about-btn a{
+    color:#F79214;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;
+    width:100%;
+    border-radius: 38px;
+    display:flex;
+    flex-direction:column;
+    height:64px;
+    justify-content:center;
+    
+}
+
+.about-btn:hover{
+    opacity:0.8;
+}
+
+.about-btn a span:first-child{
+    font-family:'Lato', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    line-height:30px;
+}
